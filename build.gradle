@@ -25,6 +25,13 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// jpa dependency
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+	// mysql연결하기
+	runtimeOnly 'com.mysql:mysql-connector-j'
+	//	runtimeOnly 'mysql:mysql-connector-java'
 }
 
 tasks.named('test') {
