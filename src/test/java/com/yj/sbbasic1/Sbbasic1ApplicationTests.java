@@ -154,7 +154,7 @@ class Sbbasic1ApplicationTests {
 
 			assertThat(answerList.size()).isEqualTo(1);
 
-			assertThat(answerList.get(0)).isEqualTo("네 자동으로 생성됩니다.");
+			assertThat(answerList.get(0).getContent()).isEqualTo("네 자동으로 생성됩니다.");
 		}
 	}
 }
