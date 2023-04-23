@@ -1,5 +1,6 @@
-package com.yj.sbbasic1;
+package com.yj.sbbasic1.question;
 
+import com.yj.sbbasic1.answer.Answer;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

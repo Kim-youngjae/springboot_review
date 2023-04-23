@@ -1,5 +1,9 @@
 package com.yj.sbbasic1;
 
+import com.yj.sbbasic1.answer.Answer;
+import com.yj.sbbasic1.answer.AnswerRepository;
+import com.yj.sbbasic1.question.Question;
+import com.yj.sbbasic1.question.QuestionRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
